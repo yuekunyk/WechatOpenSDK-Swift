@@ -1,0 +1,6 @@
+framework module WechatOpenSDK_Swift {
+  umbrella header "WechatOpenSDK-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

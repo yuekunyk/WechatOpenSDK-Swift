@@ -13,7 +13,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A65C9D1C84D0166AE8488BA /* Pods_WechatOpenSDK_Swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3286FA50501AFFA15B0EC /* Pods_WechatOpenSDK_Swift_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2FE3286FA50501AFFA15B0EC /* Pods_WechatOpenSDK_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WechatOpenSDK_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E624D3E055ACF63FC943E48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E624D3E055ACF63FC943E48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3EC5728FF8DBAFCF7BDD1F0F /* Pods_WechatOpenSDK_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WechatOpenSDK_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4743011C258BEBB14B90E25E /* Pods-WechatOpenSDK-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatOpenSDK-Swift_Example.debug.xcconfig"; path = "Target Support Files/Pods-WechatOpenSDK-Swift_Example/Pods-WechatOpenSDK-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E70EBD792239B427DA47C75 /* Pods-WechatOpenSDK-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatOpenSDK-Swift_Example.release.xcconfig"; path = "Target Support Files/Pods-WechatOpenSDK-Swift_Example/Pods-WechatOpenSDK-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,10 +41,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* WechatOpenSDK-Swift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WechatOpenSDK-Swift_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AA32E5A80429E08BCD53E8A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA32E5A80429E08BCD53E8A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B2066DC590C05C4AB632CCB5 /* Pods-WechatOpenSDK-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatOpenSDK-Swift_Tests.release.xcconfig"; path = "Target Support Files/Pods-WechatOpenSDK-Swift_Tests/Pods-WechatOpenSDK-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D21A580D9AD224F66BF5D9A3 /* WechatOpenSDK-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "WechatOpenSDK-Swift.podspec"; path = "../WechatOpenSDK-Swift.podspec"; sourceTree = "<group>"; };
+		D21A580D9AD224F66BF5D9A3 /* WechatOpenSDK-Swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "WechatOpenSDK-Swift.podspec"; path = "../WechatOpenSDK-Swift.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6E22710EA3596D9A39D5456 /* Pods-WechatOpenSDK-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WechatOpenSDK-Swift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WechatOpenSDK-Swift_Tests/Pods-WechatOpenSDK-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +113,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -156,7 +153,6 @@
 				D6E22710EA3596D9A39D5456 /* Pods-WechatOpenSDK-Swift_Tests.debug.xcconfig */,
 				B2066DC590C05C4AB632CCB5 /* Pods-WechatOpenSDK-Swift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +167,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7C581ADB2816BBEF7B5B48BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +222,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,24 +258,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7C581ADB2816BBEF7B5B48BC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WechatOpenSDK-Swift_Example/Pods-WechatOpenSDK-Swift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WechatOpenSDK-Swift/WechatOpenSDK_Swift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WechatOpenSDK_Swift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WechatOpenSDK-Swift_Example/Pods-WechatOpenSDK-Swift_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D7D20F7E3ECD221455CB2928 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
